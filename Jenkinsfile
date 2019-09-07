@@ -4,7 +4,7 @@ pipeline {
 		stage('Source') {
 			steps {
             git branch: 'master',
-                url: 'https://github.com/fourcolorssuffice/cpe2.git'
+                url: 'https://github.com/1910517306005UTCC/cpe2.git'
       }
 		}
     stage('Build') {
